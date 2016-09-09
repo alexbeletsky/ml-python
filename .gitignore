@@ -5,4 +5,4 @@ coverage
 npm-debug.log*
 *.html
 build
-notebook/.ipytnb_checkpoints
+notebook/.ipynb_checkpoints/
