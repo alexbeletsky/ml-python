@@ -1,0 +1,19 @@
+{
+  "name": "ml-python",
+  "version": "1.0.0-beta-1",
+  "description": "Machine Learning with Python Book.",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker-compose build && docker-compose run notebook",
+    "start": "docker-compose up",
+    "login": "docker-compose run --rm --service-ports notebook /bin/bash",
+    "clean": "docker-compose stop && docker-compose rm -fv"
+  },
+  "author": "alex@socialsearch.com",
+  "repository": "https://github.com/socialsearchio/app-v2",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

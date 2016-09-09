@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  notebook:
+    build: .
+    volumes:
+      - ./notebook:/opt/notebook
+    ports:
+      - '8888:8888'
+    container_name: jupyter-notebook
