@@ -6,7 +6,7 @@
   "scripts": {
     "build": "docker-compose build",
     "start": "docker-compose run --rm --service-ports notebook",
-    "login": "docker-compose run --rm --service-ports notebook /bin/bash",
+    "login": "docker-compose run --rm notebook /bin/bash",
     "clean": "docker-compose stop && docker-compose rm -fv"
   },
   "author": "alex@socialsearch.com",

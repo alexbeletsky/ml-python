@@ -4,7 +4,7 @@ services:
   notebook:
     build: .
     volumes:
-      - ./notebook:/opt/notebook
+      - .:/opt/ml-python
     ports:
       - '8888:8888'
-    container_name: jupyter-notebook
+    container_name: ml-python-notebook
