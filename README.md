@@ -9,3 +9,7 @@ Materials created during studying [Python Machine Learning](https://www.amazon.c
 ### References
 
 * [https://github.com/rasbt/python-machine-learning-book](https://github.com/rasbt/python-machine-learning-book)
+
+### License
+
+MIT alexander.beletsky@gmail.com
